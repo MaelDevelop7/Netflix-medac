@@ -1,0 +1,16 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.bg-gradient {
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.9), transparent 60%);
+}
+
+img {
+  transition: transform 0.3s ease;
+}
+
+img:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
