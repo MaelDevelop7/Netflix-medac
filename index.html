@@ -34,30 +34,34 @@
   </div>
 
   <!-- My List Section -->
-  <div class="container mt-4">
+  <div class="container mt-4 position-relative">
     <h3>My List</h3>
-    <div class="row flex-nowrap overflow-auto">
-      <div class="col-3">
-        <img src="assets/cobrakai.jpg" class="img-fluid rounded" />
-      </div>
-      <div class="col-3">
-        <img src="assets/outlander.jpg" class="img-fluid rounded" />
-      </div>
-      <!-- Ajoute plus d'images -->
+    <button class="scroll-btn left" data-target="my-list">‹</button>
+    <button class="scroll-btn right" data-target="my-list">›</button>
+
+    <div id="my-list" class="scroll-container d-flex flex-nowrap overflow-hidden">
+      <img src="assets/cobrakai.jpg" class="img-fluid rounded me-2" style="width: 200px;" />
+      <img src="assets/outlander.jpg" class="img-fluid rounded me-2" style="width: 200px;" />
+      <img src="assets/emily-paris.jpg" class="img-fluid rounded me-2" style="width: 200px;" />
+      <img src="assets/babylon-berlin.jpg" class="img-fluid rounded me-2" style="width: 200px;" />
+      <img src="assets/after-life.jpg" class="img-fluid rounded me-2" style="width: 200px;" />
+      <!-- Ajoute plus d'images si tu veux -->
     </div>
   </div>
 
   <!-- TV Dramas Section -->
-  <div class="container mt-4">
+  <div class="container mt-4 position-relative">
     <h3>TV Dramas</h3>
-    <div class="row flex-nowrap overflow-auto">
-      <div class="col-3">
-        <img src="assets/devil-ohio.jpg" class="img-fluid rounded" />
-      </div>
-      <div class="col-3">
-        <img src="assets/the-crown.jpg" class="img-fluid rounded" />
-      </div>
-      <!-- Ajoute plus d'images -->
+    <button class="scroll-btn left" data-target="tv-dramas">‹</button>
+    <button class="scroll-btn right" data-target="tv-dramas">›</button>
+
+    <div id="tv-dramas" class="scroll-container d-flex flex-nowrap overflow-hidden">
+      <img src="assets/partnerTrack.png" class="img-fluid rounded me-2" style="width: 200px;" />
+      <img src="assets/devil-ohio.jpg" class="img-fluid rounded me-2" style="width: 200px;" />
+      <img src="assets/the-crown.jpg" class="img-fluid rounded me-2" style="width: 200px;" />
+      <img src="assets/call-midwife.jpg" class="img-fluid rounded me-2" style="width: 200px;" />
+      <img src="assets/in-the-dark.jpg" class="img-fluid rounded me-2" style="width: 200px;" />
+      <!-- Ajoute plus d'images si tu veux -->
     </div>
   </div>
 

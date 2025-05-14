@@ -1,16 +1,38 @@
-body {
-  font-family: Arial, sans-serif;
+.scroll-container {
+  scroll-behavior: smooth;
+  overflow-x: auto;
+  white-space: nowrap;
+  padding-bottom: 1rem;
+}
+
+.scroll-container img {
+  width: 200px;
+  height: auto;
+  margin-right: 10px;
+  flex-shrink: 0;
+}
+
+.scroll-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0, 0, 0, 0.6);
+  border: none;
+  color: white;
+  font-size: 2rem;
+  z-index: 10;
+  padding: 0.2em 0.6em;
+  cursor: pointer;
+}
+
+.scroll-btn.left {
+  left: 10px;
+}
+
+.scroll-btn.right {
+  right: 10px;
 }
 
 .bg-gradient {
-  background: linear-gradient(to top, rgba(0, 0, 0, 0.9), transparent 60%);
-}
-
-img {
-  transition: transform 0.3s ease;
-}
-
-img:hover {
-  transform: scale(1.05);
-  cursor: pointer;
+  background: linear-gradient(to top, rgba(0,0,0,0.8), rgba(0,0,0,0.3), transparent);
 }
