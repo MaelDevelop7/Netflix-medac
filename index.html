@@ -14,9 +14,9 @@
     <a class="navbar-brand text-danger" href="#">NETFLIX</a>
     <ul class="navbar-nav ms-3">
       <li class="nav-item"><a class="nav-link active" href="#">TV Shows</a></li>
-      <li class="nav-item"><a class="nav-link" href="#">Movies</a></li>
+      <li class="nav-item"><a class="nav-link active" href="#tv-dramas">TV-Dramas</a></li>
       <li class="nav-item"><a class="nav-link" href="#">New & Popular</a></li>
-      <li class="nav-item"><a class="nav-link" href="#">My List</a></li>
+      <li class="nav-item"><a class="nav-link" href="#my-list">My List</a></li>
     </ul>
   </nav>
 
@@ -36,8 +36,8 @@
   <!-- My List Section -->
   <div class="container mt-4 position-relative">
     <h3>My List</h3>
-    <button class="scroll-btn left" data-target="my-list">‹</button>
-    <button class="scroll-btn right" data-target="my-list">›</button>
+    <button class="scroll-btn left" data-target="my-list" aria-label="Scroll left">></button>
+    <button class="scroll-btn right" data-target="my-list" aria-label="Scroll right"><</button>
 
     <div id="my-list" class="scroll-container d-flex flex-nowrap overflow-hidden">
       <img src="assets/cobrakai.jpg" class="img-fluid rounded me-2" style="width: 200px;" />
@@ -45,6 +45,9 @@
       <img src="assets/emily-paris.jpg" class="img-fluid rounded me-2" style="width: 200px;" />
       <img src="assets/babylon-berlin.jpg" class="img-fluid rounded me-2" style="width: 200px;" />
       <img src="assets/after-life.jpg" class="img-fluid rounded me-2" style="width: 200px;" />
+      <img src="assets/viking.jpg" class="img-fluid rounded me-2" style="width: 200px;" />
+      <img src="assets/central-intel.jpg" class="img-fluid rounded me-2" style="width: 200px;" />
+      
       <!-- Ajoute plus d'images si tu veux -->
     </div>
   </div>
@@ -52,8 +55,8 @@
   <!-- TV Dramas Section -->
   <div class="container mt-4 position-relative">
     <h3>TV Dramas</h3>
-    <button class="scroll-btn left" data-target="tv-dramas">‹</button>
-    <button class="scroll-btn right" data-target="tv-dramas">›</button>
+    <button class="scroll-btn left" data-target="tv-dramas" aria-label="Scroll left">></button>
+    <button class="scroll-btn right" data-target="tv-dramas" aria-label="Scroll right">< </button>
 
     <div id="tv-dramas" class="scroll-container d-flex flex-nowrap overflow-hidden">
       <img src="assets/partnerTrack.png" class="img-fluid rounded me-2" style="width: 200px;" />
@@ -61,6 +64,8 @@
       <img src="assets/the-crown.jpg" class="img-fluid rounded me-2" style="width: 200px;" />
       <img src="assets/call-midwife.jpg" class="img-fluid rounded me-2" style="width: 200px;" />
       <img src="assets/in-the-dark.jpg" class="img-fluid rounded me-2" style="width: 200px;" />
+      <img src="assets/the-witcher.jpg" class="img-fluid rounded me-2" style="width: 200px;" />
+
       <!-- Ajoute plus d'images si tu veux -->
     </div>
   </div>
